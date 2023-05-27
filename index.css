@@ -1,0 +1,43 @@
+body {
+    font-family: Vedana, Geneva, Tahoma, sans-serif;
+  }
+  h1{
+    text-align: center;
+  }
+  .error{
+    border: 1px solid red;
+  }
+  .valores, .txt-box {
+    margin: auto;
+    text-align: center;
+  }
+  li {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  input[type='button']{
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.8s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(31, 145, 187);
+  }
+  input[type='button']:hover {
+    background-color: rgba(31, 145, 187);
+    color: white;
+  }
+  table, th, td {
+      border: 1px solid black;
+      text-align: center;
+      margin: auto;
+    }
+    tr:nth-child(odd) {background: #B7B7B7}
+    tr:nth-child(even) {background: #ffffff}
+    tr:first-child {background: #3a53f2; color: white}
+  
